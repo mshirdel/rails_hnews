@@ -1,24 +1,18 @@
-# README
+# Rails for hnews
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is an implementation for [hnews](https://github.com/mshirdel/hnews). This is an api only rails project.
 
-Things you may want to cover:
+## Getting started
+To get the Rails server running locally:
+```bash
+git clone https://github.com/mshirdel/rails_hnews.git
+bundle install
+rake db:migrate
+rails s
+```
 
-* Ruby version
+## Dependencies
+* [Devise](https://github.com/plataformatec/devise) For implementing authentication.
+* [Jbuilder](https://github.com/rails/jbuilder) Default JSON rendering gem that ships with Rails, used for making reusable templates for JSON output.
+* [JWT](https://github.com/jwt/ruby-jwt) For generating and validating JWTs for authentication
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
